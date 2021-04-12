@@ -5,12 +5,12 @@
 
 ## Research
 
-![Parking Lot]()
+<img src="https://github.com/Dhyey-Hulk/LTTS-MiniProject/blob/master/1-Requirements/26663.jpg" height="700">
 
 
 ## Cost and Features
 
-![Description](Link to Pic)
+![Description](Link to Pic )
 -- Content
 
 ## Defining Our System

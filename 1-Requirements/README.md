@@ -64,20 +64,20 @@
 | HLR02 | User should see the status of the space available | TBD |
 | HLR03 | User should get the address of the nearest empty spot | TBD |
 | HLR04 | User should get the charge to be paid | TBD |
-| HLR05 | User can get security alert | Future |
+| HLR05 | User can get additional features | Future |
 
 
 ##  Low level Requirements:
-| ID | Description | Status (Implemented/Future) |
-|----|-------------|-----------------------------|
-| LLR01 | New entry is to be added by pressing 1 | TBD |
-| LLR02 | Data to entered should have vehicle registered plate no. , type of vehicle, contact no. for emergency | TBD |
-| LLR03 | To print out the address of the assigned nearest spot | TBD |
-| LLR04 | Update the status of the vacancy in parking area | TBD |
-| LLR05 | Print out the charge incurred at the time exit | TBD |
-| LLR06 | Delete the entry by pressing 0 | TBD |
-| LLR07 | Again update the status of vacancy | TBD |
-| LLR08 | The system should refresh itself after every change in the entry | TBD |
-| LLR09 | Store data after every entry so that power failure doesn't erase data | Future |
-| LLR10 | A customer can book the spot earlier | Future |
-| LLR11 | Online payment option for charges | Future |
+| ID | Description | HLR ID | Status (Implemented/Future) |
+|----|-------------|--------|---------------------|
+| LLR01 | New entry is to be added by pressing 1 | HLR01 | TBD |
+| LLR02 | Data to entered should have vehicle registered plate no. , type of vehicle, contact no. for emergency |  HLR01 |TBD |
+| LLR03 | To print out the address of the assigned nearest spot | HLR03 | TBD |
+| LLR04 | Update the status of the vacancy in parking area | HLR02 | TBD |
+| LLR05 | Print out the charge incurred at the time exit | HLR04 | TBD |
+| LLR06 | Delete the entry by pressing 0 | HLR01 | TBD |
+| LLR07 | Again update the status of vacancy | HLR02 | TBD |
+| LLR08 | The system should refresh itself after every change in the entry | HLR02 | TBD |
+| LLR09 | Store data after every entry so that power failure doesn't erase data | HLR05 | Future |
+| LLR10 | A customer can book the spot earlier | HLR05 | Future |
+| LLR11 | Online payment option for charges | HLR05 | Future |

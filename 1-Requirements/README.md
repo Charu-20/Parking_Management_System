@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
----
+
 
 * A Parking Guidance System helps in proper allocation of the parking spot to the vehicles. The system will help the drivers with the exact location, where to park. The System also holds the data of the car driver and the car. With this data, we can calculate what charges are to be paid for differrent type of vehicles and how long the vehicle was parked.
 

@@ -74,8 +74,10 @@
 | LLR02 | Data to entered should have vehicle registered plate no. , type of vehicle, contact no. for emergency | TBD |
 | LLR03 | To print out the address of the assigned nearest spot | TBD |
 | LLR04 | Update the status of the vacancy in parking area | TBD |
-| LLR05 | Delete the entry by pressing 0 | TBD |
-| LLR06 | Again update the status of vacancy | TBD |
-| LLR07 | The system should refresh itself after every change in the entry | TBD |
-| LLR08 | Store data after every entry so that power failure doesn't erase data | Future |
-| LLR09 | A customer can book the spot earlier | Future |
+| LLR05 | Print out the charge incurred at the time exit | TBD |
+| LLR06 | Delete the entry by pressing 0 | TBD |
+| LLR07 | Again update the status of vacancy | TBD |
+| LLR08 | The system should refresh itself after every change in the entry | TBD |
+| LLR09 | Store data after every entry so that power failure doesn't erase data | Future |
+| LLR10 | A customer can book the spot earlier | Future |
+| LLR11 | Online payment option for charges | Future |

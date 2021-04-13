@@ -57,11 +57,25 @@
 
 # Detail requirements
 ## High Level Requirements:
---- 
+
 | ID | Description | Status (Implemented/Future) |
-|HLR01|pROBLEM OCCURED| FUTURE|
+|----|-------------|-----------------------------|
+| HLR01 | User should be able to enter and delete the data | TBD |
+| HLR02 | User should see the status of the space available | TBD |
+| HLR03 | User should get the address of the nearest empty spot | TBD |
+| HLR04 | User should get the charge to be paid | TBD |
+| HLR05 | User can get security alert | Future |
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID | Description | Status (Implemented/Future) |
+|----|-------------|-----------------------------|
+| LLR01 | New entry is to be added by pressing 1 | TBD |
+| LLR02 | Data to entered should have vehicle registered plate no. , type of vehicle, contact no. for emergency | TBD |
+| LLR03 | To print out the address of the assigned nearest spot | TBD |
+| LLR04 | Update the status of the vacancy in parking area | TBD |
+| LLR05 | Delete the entry by pressing 0 | TBD |
+| LLR06 | Again update the status of vacancy | TBD |
+| LLR07 | The system should refresh itself after every change in the entry | TBD |
+| LLR08 | Store data after every entry so that power failure doesn't erase data | Future |
+| LLR09 | A customer can book the spot earlier | Future |

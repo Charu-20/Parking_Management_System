@@ -96,5 +96,5 @@ int main(){
         printf("Mode:");
         scanf("%d",&mode);
     }
-    return 0;
+    
 }

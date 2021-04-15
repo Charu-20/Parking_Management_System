@@ -10,7 +10,6 @@ void test_distance_case2(void);
 //void test_location(void);
 void test_shortest_distance_case1(void);
 void test_shortest_distance_case2(void);
-void test_count_case1(void);
 void test_count_case2(void);
 void setUp(){}
 void tearDown(){}
@@ -25,7 +24,6 @@ int main()
     //RUN_TEST(test_location);
     RUN_TEST(test_shortest_distance_case1);
     RUN_TEST(test_shortest_distance_case2);
-    RUN_TEST(test_count_case1);
     RUN_TEST(test_count_case2);
     return UNITY_END();
 }
@@ -46,12 +44,6 @@ void test_shortest_distance_case1(void){
 void test_shortest_distance_case2(void){
     int tptr[16] =  {1,2,3,4,5,6,7,8,9,10,11,12,13,14,1,5};
     TEST_ASSERT_EQUAL(&tptr,shortest_distance(tptr));
-}
-
-void test_count_case1(void){
-    vehicle parking_lot[1][1];
-    vehicle (*plptr)[1] = parking_lot;
-    TEST_ASSERT_EQUAL(98,count(*plptr));
 }
 
 void test_count_case2(void){

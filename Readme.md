@@ -4,10 +4,14 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/Valgrind.yml)| [![Unity - Unit Testing](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/gitinspector.yml)
-
+| Cateogry | Badge |
+|----------|-------|
+| Build | [![C Compile - Build](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/build.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/build.yml) |
+| CI-Coverage | [![Code Coverage](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/gcov.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/gcov.yml) |
+| Unit Test | [![Unity Testing](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/unity.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/unity.yml) |
+| Static Memory Check - Cppcheck | [![Cppcheck](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/c-cpp.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/c-cpp.yml) |
+| Dynamic Memory Check - Valgrind | [![Valgrind](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/Valgrind.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/Valgrind.yml) |
+| Contributuion Check | [![Inspector](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/gitinspector.yml/bagde.svg)](https://github.com/Dhyey-Hulk/LTTS-MiniProject/actions/workflows/gitinspector.yml) |
 
 ## Folder Structure
 Folder             | Description

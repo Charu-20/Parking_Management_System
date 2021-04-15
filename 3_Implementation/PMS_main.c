@@ -66,6 +66,7 @@ int main(){
             printf("Column:\n");
             scanf("%d",&column);
             printf("Lot No:\n");
+            printf("trial workflow check");
             scanf("%d",&lot_no);
             
             if(lot_no==1){

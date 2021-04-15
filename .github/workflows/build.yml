@@ -1,4 +1,4 @@
-name: Unit Test - Unity
+name: C Compile - Build
 
 on:
   push:
@@ -7,14 +7,12 @@ on:
     branches: [master]
 
   workflow_dispatch:
-  
+
 jobs:
-  UnitTest:
+  Build:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: build
-        run: make -C 3_Implementation/
-      - name: test
-        run: make test -C 3_Implementation/
+      - name: Build
+        run: make all -C 3_Implementation/

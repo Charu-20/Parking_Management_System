@@ -71,7 +71,7 @@ coverageCheck:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcno *.gcda
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcno *.gcda *.gcov
 
 # Create new build folder if not present
 $(BUILD):

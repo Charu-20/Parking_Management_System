@@ -1,4 +1,5 @@
 #include"PMS.h"
+/*
 int count(vehicle *plptr){
     int count = 100;
     int a = strcmp(plptr->number_plate,"");
@@ -34,7 +35,7 @@ int *shortest_distance(int *tptr){
     }
     return tptr;
 }
-
+*/
 float distance(int index_1, int index_2){
     int temp;
     temp = (index_1*index_1) + (index_2*index_2);

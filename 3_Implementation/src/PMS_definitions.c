@@ -93,13 +93,13 @@ void data_entry(int row,int column, vehicle *plptr){
     plptr = plptr+((row*10)+column);
     char temp[21];
     printf("Enter Number Plate:");
-    scanf("%s",temp);
+    scanf("%20s",temp);
     strcpy(plptr->number_plate,temp);
     printf("Enter Name:");
-    scanf("%s",temp);
+    scanf("%20s",temp);
     strcpy(plptr->name_of_driver,temp);
     printf("Enter Phone Number:");
-    scanf("%s",temp);
+    scanf("%20s",temp);
     strcpy(plptr->driver_mobile,temp);
     return ;
 }

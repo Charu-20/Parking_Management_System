@@ -7,7 +7,8 @@ SRC = src/PMS_definitions.c\
 PMS_main.c
 
 TEST_SRC = test/test_$(PROJ_NAME).c\
-unity/unity.c
+unity/unity.c\
+src/test_definitions.c
 
 INC = -Iinc\
 -Iunity
@@ -31,15 +32,15 @@ endif
 
 # COMPILE CODE
 all:$(BUILD_DIR)
-	gcc -Wall -g project_main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+	gcc -Wall -g $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC)) -lm
 
 # RUN CODE
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 # UNIT TESTING
-test: $(SRC) $(TEST_SRC)
-	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+test:$(TEST_SRC)
+	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 # COVERAGE CHECK
@@ -50,7 +51,7 @@ test: $(SRC) $(TEST_SRC)
 # 	gcov -a -b -c $(SRC) project_main.c
 
 coverageCheck:$(BUILD)
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 

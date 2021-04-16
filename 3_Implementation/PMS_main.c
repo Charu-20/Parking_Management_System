@@ -23,7 +23,7 @@ int main(){
         vehicle (*pl4ptr)[10] = parking_lot4;
 
         int operation;
-        printf("Enter Operation:\n1 - Data Entry\t 2 - Data Delete\t 3 - Show Status\n");
+        printf("Enter Operation:\n1 - Data Entry\t2 - Data Delete\t3 - Show Status\t4 - Full\n");
         scanf("%d",&operation);
 
         if(operation==1)
@@ -66,7 +66,6 @@ int main(){
             printf("Column:\n");
             scanf("%d",&column);
             printf("Lot No:\n");
-            printf("trial workflow check");
             scanf("%d",&lot_no);
             
             if(lot_no==1){
@@ -91,7 +90,11 @@ int main(){
             lot2=count(*pl2ptr);
             lot3=count(*pl3ptr);
             lot4=count(*pl4ptr);
-            printf("Vacant spots:\nLot1-%d\t Lot2-%d\t Lot3-%d\t Lot4-%d\n",lot1,lot2,lot3,lot4);
+            printf("Vacant spots:\nLot1-%d\tLot2-%d\tLot3-%d\tLot4-%d\n",lot1,lot2,lot3,lot4);
+        }
+        if(operation==4)
+        {
+            printf("The parking facility is full\n");
         }
         printf("Mode:");
         scanf("%d",&mode);

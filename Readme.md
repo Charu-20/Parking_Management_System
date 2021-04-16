@@ -20,21 +20,24 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_TestPlan`      | Documents with test plans and procedures
+`Images_Videos` | Photos used in the whole project and videos of various issues resolved
 
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`261805` | Dhyey  | Feature A, B etc    | X No     | X No   |X No   |X No     
+`261805` | Dhyey  | LLR01, LLR02, LLR03, LLR04, LLR06, LLR07, LLR08   | 5      |  2   |5   |5     
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+| Serial No | Challenge | Solution |
+|-------|-----------|----------|
+| 1 | Working with 2D arrays | Learnt hoe to use pointer to point at a specific location in 2D array . Came to know 2D array is like a matrix for visualisation |
+| 2 | Accessing the data from array of struct | The data accessing in struct can't be done with unary operators directly. We need to use it with functions. |
+| 3 | Unit test cases for input as a pointer | Made an array of just one element and got the output checked with just that array. So pointer works properly | 
 
 ## Learning Resources
+
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)

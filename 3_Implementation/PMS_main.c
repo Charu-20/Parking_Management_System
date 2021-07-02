@@ -12,6 +12,7 @@ vehicle parking_lot4[10][10];
 
 int main(){
     int mode;
+    for(int k=0;k<100;k++);
     printf("Enter the mode:\n1 - Start\t 0 - Stop\n");
     scanf("%d",&mode);
     while(mode==1)

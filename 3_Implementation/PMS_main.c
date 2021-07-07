@@ -42,17 +42,13 @@ int main(){
             int lot_no = locptr[3];
             printf("Lot No:%d\tRow:%d\tColumn:%d\n",lot_no,row,column);
             if(lot_no==1){
-                data_entry(row,column,*pl1ptr);
-            }
+                data_entry(row,column,*pl1ptr);}
             else if(lot_no==2){
-                data_entry(row,column,*pl2ptr);
-            }
+                data_entry(row,column,*pl2ptr);}
             else if(lot_no==3){
-                data_entry(row,column,*pl3ptr);
-            }
+                data_entry(row,column,*pl3ptr);}
             else{
-                data_entry(row,column,*pl4ptr);
-            }
+                data_entry(row,column,*pl4ptr);}
 
             free(locptr);
         }
